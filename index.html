@@ -18,8 +18,15 @@
             background-color: #394A59; /* Change the background color as needed */
         }
         .logo {
-            max-width: auto;
-            height: 30%;
+            max-width: 50%;
+            height: auto;
+            
+        @media only screen and (max-width: 600px) {
+            /* Adjust logo size for smaller screens */
+            .logo {
+                max-width: 30%;
+            }
+        }
         }
     </style>
 </head>
